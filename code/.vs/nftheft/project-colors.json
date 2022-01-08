@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4d32679e-61c7-470b-a168-d120cd304797": {
+      "ProjectGuid": "4d32679e-61c7-470b-a168-d120cd304797",
+      "DisplayName": "nftheft",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "22f7b013-708e-4e8e-a2b6-a60bd2848608": {
+      "ProjectGuid": "22f7b013-708e-4e8e-a2b6-a60bd2848608",
+      "DisplayName": "nftheft",
+      "ColorIndex": 1
+    },
+    "97a452d3-e0ef-4462-b2e5-853197cdf4a7": {
+      "ProjectGuid": "97a452d3-e0ef-4462-b2e5-853197cdf4a7",
+      "DisplayName": "nftheft",
+      "ColorIndex": 2
+    },
+    "52141f86-9a16-4fde-b701-ba6dc292e30e": {
+      "ProjectGuid": "52141f86-9a16-4fde-b701-ba6dc292e30e",
+      "DisplayName": "nftheft",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

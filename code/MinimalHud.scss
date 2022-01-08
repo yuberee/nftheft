@@ -1,0 +1,17 @@
+RootPanel {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	.NFT {
+		height: 190px;
+		aspect-ratio: 1;
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
