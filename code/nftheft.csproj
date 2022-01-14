@@ -26,7 +26,7 @@
   <PropertyGroup>
 	<OutputPath>../.vs/output/</OutputPath>
 	<DocumentationFile>../.vs/output/nftheft.xml</DocumentationFile>
-	<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+	<RootNamespace>Sandbox</RootNamespace>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -39,7 +39,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-<ProjectReference Include="..\..\..\addons\base\code\base.csproj" />
+<ProjectReference Include="C:\Program Files (x86)\Steam\steamapps\common\sbox\addons\base\code\base.csproj" />
   </ItemGroup>
 
 </Project>

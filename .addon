@@ -1,4 +1,15 @@
 {
-    "sharedassets": "*.*",
-    "type": "game"
+  "SharedAssets": null,
+  "Title": "Nftheft",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "nftheft",
+  "FullIdent": "local.nftheft",
+  "Schema": 1,
+  "NeedsUpgrade": false,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": "Sandbox"
 }
