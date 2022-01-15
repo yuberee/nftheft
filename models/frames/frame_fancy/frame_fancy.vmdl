@@ -55,8 +55,8 @@
 						game_keys = 
 						{
 							bonename = ""
-							dimensions = [ 73.400002, 2.0, 66.800003 ]
-							offset_origin = [ 0.0, 0.713308, 0.0 ]
+							dimensions = [ 2.0, 73.400002, 66.800003 ]
+							offset_origin = [ 1.0, 0.0, 0.0 ]
 							offset_angles = [ 0.0, 0.0, 0.0 ]
 						}
 					},
@@ -69,11 +69,11 @@
 					{
 						_class = "PhysicsShapeBox"
 						parent_bone = ""
-						surface_prop = "default"
+						surface_prop = "wood"
 						collision_prop = "default"
-						origin = [ 0.0, 0.713308, 0.0 ]
+						origin = [ 1.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 73.400002, 2.0, 66.800003 ]
+						dimensions = [ 2.0, 73.400002, 66.800003 ]
 					},
 				]
 			},
