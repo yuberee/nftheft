@@ -8,11 +8,11 @@ Layer0
 	F_AMBIENT_OCCLUSION_TEXTURE 1
 
 	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion "models/frames/frame_fancy/frame_ao.png"
+	TextureAmbientOcclusion "models/frames/frame_fancy/frame_fancy_ao.png"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_vColorTint "[1.000000 0.886275 0.611765 1.000000]"
+	g_vColorTint "[1.000000 0.854902 0.337255 1.000000]"
 	TextureColor "materials/default/default_color.tga"
 
 	//---- Fade ----
@@ -29,10 +29,10 @@ Layer0
 	g_flMetalness "1.000"
 
 	//---- Normal ----
-	TextureNormal "models/frames/frame_fancy/frame_normal.png"
+	TextureNormal "models/frames/frame_fancy/frame_fancy_normal.png"
 
 	//---- Roughness ----
-	TextureRoughness "[0.186000 0.186000 0.186000 0.000000]"
+	TextureRoughness "[0.200000 0.200000 0.200000 0.000000]"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
