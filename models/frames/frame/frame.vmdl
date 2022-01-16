@@ -32,7 +32,7 @@
 						[
 							{
 								from = "frame.vmat"
-								to = "materials/generic/metal_brushed.vmat"
+								to = "models/frames/frame/frame.vmat"
 							},
 						]
 						use_global_default = false
