@@ -15,7 +15,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/brushed_metal_color.jpg"
+	TextureColor "materials/brushed_metal/brushed_metal_color.jpg"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -31,7 +31,7 @@ Layer0
 	g_flMetalness "0.571"
 
 	//---- Normal ----
-	TextureNormal "materials/brushed_metal_normal.jpg"
+	TextureNormal "materials/brushed_metal/brushed_metal_normal.jpg"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"
