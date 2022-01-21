@@ -37,6 +37,26 @@
 								from = "blubberrunner.vmat"
 								to = "models/sculptures/blubber/blubberrunner.vmat"
 							},
+							{
+								from = "aneurysm.vmat"
+								to = "models/sculptures/aneurism/aneurysm.vmat"
+							},
+							{
+								from = "frostial.vmat"
+								to = "models/sculptures/frostrial/frostrial.vmat"
+							},
+							{
+								from = "nftheft.vmat"
+								to = "models/sculptures/nftheft/nftheft.vmat"
+							},
+							{
+								from = "rodentburger.vmat"
+								to = "models/sculptures/rodent/rodentburger.vmat"
+							},
+							{
+								from = "snotfarm.vmat"
+								to = "models/sculptures/snotfarm/snotfarm.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -149,6 +169,91 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						name = "frost"
+						filename = "models/sculptures/frostrial/frostrial.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "aneu"
+						filename = "models/sculptures/aneurism/aneurysm.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rodent"
+						filename = "models/sculptures/rodent/rodentburger.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "nft"
+						filename = "models/sculptures/nftheft/nftheft.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "snot"
+						filename = "models/sculptures/snotfarm/snotfarm.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
 			},
 			{
@@ -198,6 +303,46 @@
 								meshes = 
 								[
 									"cat",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "Frostrial"
+								meshes = 
+								[
+									"frost",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "NFTheft"
+								meshes = 
+								[
+									"nft",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "AneurismSim"
+								meshes = 
+								[
+									"aneu",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "RodentBurger"
+								meshes = 
+								[
+									"rodent",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "SnotFarm"
+								meshes = 
+								[
+									"snot",
 								]
 							},
 						]
